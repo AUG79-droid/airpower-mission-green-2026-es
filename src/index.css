@@ -145,7 +145,7 @@ input:focus-visible {
   place-items: center;
   font-family: "SFMono-Regular", Consolas, monospace;
   font-weight: 800;
-  font-size: 13px;
+  font-size: 17px;
   position: relative;
   clip-path: polygon(0 15%, 15% 0, 100% 0, 100% 85%, 85% 100%, 0 100%);
   background: rgba(255, 227, 79, 0.05);
@@ -154,14 +154,14 @@ input:focus-visible {
 .brand-mark.large {
   width: 50px;
   height: 50px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .brand-button strong,
 .wordmark strong {
   display: block;
-  font-size: 14px;
-  letter-spacing: 0.18em;
+  font-size: 18px;
+  letter-spacing: 0.10em;
   line-height: 1.1;
 }
 
@@ -170,8 +170,8 @@ input:focus-visible {
   display: block;
   color: var(--muted);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 9px;
-  letter-spacing: 0.17em;
+  font-size: 14px;
+  letter-spacing: 0.10em;
   margin-top: 5px;
 }
 
@@ -187,8 +187,8 @@ input:focus-visible {
   border-radius: 999px;
   padding: 8px 12px;
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 9px;
-  letter-spacing: 0.13em;
+  font-size: 14px;
+  letter-spacing: 0.08em;
 }
 
 .simulation-chip {
@@ -220,7 +220,7 @@ input:focus-visible {
   background: transparent;
   color: #c9d6e3;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 0.04em;
   padding: 9px 4px;
 }
@@ -303,8 +303,8 @@ input:focus-visible {
   gap: 10px;
   color: var(--cyan);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 10px;
-  letter-spacing: 0.18em;
+  font-size: 14px;
+  letter-spacing: 0.10em;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -346,7 +346,7 @@ input:focus-visible {
 .hero-lede {
   max-width: 670px;
   color: #b8c8d7;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.65;
   margin: 28px 0;
 }
@@ -377,7 +377,7 @@ input:focus-visible {
   color: var(--muted);
   text-align: left;
   cursor: pointer;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .mode-switch button.active {
@@ -390,8 +390,8 @@ input:focus-visible {
   display: block;
   color: var(--muted);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 9px;
-  letter-spacing: 0.15em;
+  font-size: 14px;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   margin-bottom: 8px;
 }
@@ -403,7 +403,7 @@ input:focus-visible {
   background: rgba(4, 14, 28, 0.78);
   color: var(--text);
   padding: 0 14px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .launch-button {
@@ -414,7 +414,7 @@ input:focus-visible {
 
 .micro-disclaimer {
   color: var(--muted-2);
-  font-size: 11px;
+  font-size: 15px;
   margin: 14px 0 0;
 }
 
@@ -458,8 +458,8 @@ input:focus-visible {
   display: flex;
   justify-content: space-between;
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 9px;
-  letter-spacing: 0.16em;
+  font-size: 14px;
+  letter-spacing: 0.09em;
   color: var(--muted);
   padding: 4px 6px 16px;
 }
@@ -546,8 +546,8 @@ input:focus-visible {
 
 .radar-core span {
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 8px;
-  letter-spacing: 0.18em;
+  font-size: 14px;
+  letter-spacing: 0.10em;
   color: var(--muted);
   margin-top: 8px;
 }
@@ -569,14 +569,14 @@ input:focus-visible {
   border: 1px solid rgba(112, 215, 245, 0.5);
   background: rgba(8, 24, 43, 0.9);
   color: var(--cyan);
-  font-size: 17px;
+  font-size: 20px;
   box-shadow: 0 0 20px rgba(112, 215, 245, 0.08);
 }
 
 .orbit-node small {
   max-width: 110px;
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 8px;
+  font-size: 14px;
   letter-spacing: 0.07em;
   text-transform: uppercase;
 }
@@ -620,20 +620,20 @@ input:focus-visible {
 
 .integrity-strip small {
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 8px;
+  font-size: 14px;
   color: var(--muted);
-  letter-spacing: 0.14em;
+  letter-spacing: 0.08em;
 }
 
 .integrity-strip strong {
-  font-size: 12px;
+  font-size: 16px;
   margin-top: 3px;
 }
 
 .status-ok {
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 8px;
-  letter-spacing: 0.13em;
+  font-size: 14px;
+  letter-spacing: 0.08em;
   color: var(--positive);
 }
 
@@ -646,8 +646,8 @@ input:focus-visible {
   gap: 20px;
   color: var(--muted-2);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 9px;
-  letter-spacing: 0.16em;
+  font-size: 14px;
+  letter-spacing: 0.09em;
 }
 
 .welcome-objectives i {
@@ -679,7 +679,7 @@ input:focus-visible {
 
 .map-heading > div:first-child > p {
   color: var(--muted);
-  font-size: 16px;
+  font-size: 19px;
   line-height: 1.6;
   max-width: 730px;
   margin: 0;
@@ -716,7 +716,7 @@ input:focus-visible {
 .progress-ring span {
   position: relative;
   z-index: 1;
-  font-size: 16px;
+  font-size: 19px;
   font-family: "SFMono-Regular", Consolas, monospace;
 }
 
@@ -726,18 +726,18 @@ input:focus-visible {
 
 .progress-module small {
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 8px;
-  letter-spacing: 0.15em;
+  font-size: 14px;
+  letter-spacing: 0.09em;
   color: var(--muted-2);
 }
 
 .progress-module strong {
-  font-size: 14px;
+  font-size: 18px;
   margin: 7px 0 5px;
 }
 
 .progress-module > div:last-child > span {
-  font-size: 11px;
+  font-size: 15px;
   color: var(--muted);
 }
 
@@ -762,13 +762,13 @@ input:focus-visible {
 
 .score-label span {
   color: var(--muted);
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .score-label strong {
   font-family: "SFMono-Regular", Consolas, monospace;
   color: var(--text);
-  font-size: 13px;
+  font-size: 17px;
 }
 
 .score-track,
@@ -859,8 +859,8 @@ input:focus-visible {
   justify-content: space-between;
   align-items: center;
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 8px;
-  letter-spacing: 0.14em;
+  font-size: 14px;
+  letter-spacing: 0.08em;
   position: relative;
   z-index: 1;
 }
@@ -894,9 +894,9 @@ input:focus-visible {
 .mission-location {
   color: var(--muted-2);
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.08em;
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 8px;
+  font-size: 14px;
 }
 
 .mission-card h2 {
@@ -908,7 +908,7 @@ input:focus-visible {
 
 .mission-card > p {
   color: var(--muted);
-  font-size: 13px;
+  font-size: 17px;
   line-height: 1.55;
   margin: 0 0 18px;
   max-width: 92%;
@@ -919,15 +919,15 @@ input:focus-visible {
   padding: 10px 0;
   border-top: 1px solid var(--line);
   color: #bac9d7;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.4;
 }
 
 .target-line span {
   color: var(--accent);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 7px;
-  letter-spacing: 0.12em;
+  font-size: 14px;
+  letter-spacing: 0.07em;
   margin-right: 8px;
 }
 
@@ -942,7 +942,7 @@ input:focus-visible {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .mission-card > button:hover {
@@ -969,7 +969,7 @@ input:focus-visible {
 
 .map-footer p {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5;
   margin: 0;
 }
@@ -984,7 +984,7 @@ input:focus-visible {
   color: var(--muted);
   padding: 0;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 34px;
 }
 
@@ -1023,7 +1023,7 @@ input:focus-visible {
 .debrief-hero > div:nth-child(2) > p {
   color: var(--muted);
   line-height: 1.6;
-  font-size: 15px;
+  font-size: 18px;
   max-width: 720px;
   margin: 0;
 }
@@ -1041,19 +1041,19 @@ input:focus-visible {
 .mission-objective-box small {
   color: var(--yellow);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 8px;
-  letter-spacing: 0.13em;
+  font-size: 14px;
+  letter-spacing: 0.08em;
 }
 
 .mission-objective-box strong {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.45;
   margin: 8px 0 9px;
 }
 
 .mission-objective-box span {
   color: var(--muted-2);
-  font-size: 9px;
+  font-size: 14px;
 }
 
 .decision-layout {
@@ -1072,8 +1072,8 @@ input:focus-visible {
   display: block;
   color: var(--muted-2);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 8px;
-  letter-spacing: 0.16em;
+  font-size: 14px;
+  letter-spacing: 0.09em;
   margin-bottom: 18px;
 }
 
@@ -1097,7 +1097,7 @@ input:focus-visible {
   display: grid;
   place-items: center;
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 9px;
+  font-size: 14px;
 }
 
 .rail-step.active > span {
@@ -1118,12 +1118,12 @@ input:focus-visible {
 .rail-step small {
   color: var(--muted-2);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 7px;
-  letter-spacing: 0.12em;
+  font-size: 14px;
+  letter-spacing: 0.07em;
 }
 
 .rail-step strong {
-  font-size: 11px;
+  font-size: 15px;
   margin-top: 4px;
   line-height: 1.35;
 }
@@ -1138,13 +1138,13 @@ input:focus-visible {
 .rail-rule small {
   color: var(--positive);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 7px;
-  letter-spacing: 0.13em;
+  font-size: 14px;
+  letter-spacing: 0.08em;
 }
 
 .rail-rule p {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 15px;
   line-height: 1.5;
   margin: 8px 0 0;
 }
@@ -1164,8 +1164,8 @@ input:focus-visible {
 .decision-context span {
   color: var(--cyan);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 8px;
-  letter-spacing: 0.14em;
+  font-size: 14px;
+  letter-spacing: 0.08em;
 }
 
 .decision-context h2 {
@@ -1177,7 +1177,7 @@ input:focus-visible {
 
 .decision-context > p {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.6;
   border-left: 1px solid var(--line-strong);
   padding-left: 18px;
@@ -1238,7 +1238,7 @@ input:focus-visible {
   place-items: center;
   color: var(--muted);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .choice-copy strong,
@@ -1247,19 +1247,19 @@ input:focus-visible {
 }
 
 .choice-copy strong {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .choice-copy small {
   margin-top: 7px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 15px;
   line-height: 1.5;
 }
 
 .choice-arrow {
   color: var(--cyan);
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .consequence-panel {
@@ -1294,13 +1294,13 @@ input:focus-visible {
 .consequence-top small {
   color: var(--muted-2);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 7px;
-  letter-spacing: 0.13em;
+  font-size: 14px;
+  letter-spacing: 0.08em;
 }
 
 .consequence-top strong {
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .impact-chips {
@@ -1315,7 +1315,7 @@ input:focus-visible {
   border: 1px solid currentColor;
   padding: 6px 8px;
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 8px;
+  font-size: 14px;
 }
 
 .positive { color: var(--positive); }
@@ -1324,7 +1324,7 @@ input:focus-visible {
 
 .consequence-panel > p {
   color: #c1cfdb;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.6;
   margin: 15px 0;
   max-width: 820px;
@@ -1333,7 +1333,7 @@ input:focus-visible {
 .consequence-panel > .primary-button {
   float: right;
   min-height: 42px;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .consequence-panel::after {
@@ -1369,12 +1369,12 @@ input:focus-visible {
 }
 
 .debrief-stamp span {
-  font-size: 8px;
-  letter-spacing: 0.16em;
+  font-size: 14px;
+  letter-spacing: 0.09em;
 }
 
 .debrief-stamp strong {
-  font-size: 17px;
+  font-size: 20px;
   margin-top: 5px;
 }
 
@@ -1397,8 +1397,8 @@ input:focus-visible {
 .claim-header small {
   color: var(--cyan);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 8px;
-  letter-spacing: 0.15em;
+  font-size: 14px;
+  letter-spacing: 0.09em;
 }
 
 .learning-panel h2,
@@ -1426,12 +1426,12 @@ input:focus-visible {
 .learning-panel li > span {
   color: var(--yellow);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .learning-panel li p {
   color: #c3d0dc;
-  font-size: 13px;
+  font-size: 17px;
   line-height: 1.55;
   margin: 0;
 }
@@ -1453,7 +1453,7 @@ input:focus-visible {
   margin: 20px 0 28px;
   padding: 14px 0 14px 18px;
   color: var(--positive);
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -1468,7 +1468,7 @@ input:focus-visible {
   padding: 7px 9px;
   color: var(--muted);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 7px;
+  font-size: 14px;
   letter-spacing: 0.1em;
 }
 
@@ -1491,13 +1491,13 @@ input:focus-visible {
 .delta-summary > div small {
   color: var(--muted-2);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 7px;
-  letter-spacing: 0.13em;
+  font-size: 14px;
+  letter-spacing: 0.08em;
 }
 
 .delta-summary > div strong {
   margin-top: 5px;
-  font-size: 13px;
+  font-size: 17px;
 }
 
 .delta-summary > span strong {
@@ -1514,7 +1514,7 @@ input:focus-visible {
 
 .debrief-actions p {
   color: var(--muted-2);
-  font-size: 10px;
+  font-size: 14px;
   max-width: 430px;
   text-align: right;
   line-height: 1.5;
@@ -1559,8 +1559,8 @@ input:focus-visible {
 
 .final-core small {
   color: var(--muted);
-  font-size: 7px;
-  letter-spacing: 0.12em;
+  font-size: 14px;
+  letter-spacing: 0.07em;
   margin-top: 5px;
 }
 
@@ -1571,7 +1571,7 @@ input:focus-visible {
 
 .final-lede {
   color: var(--muted);
-  font-size: 16px;
+  font-size: 19px;
   line-height: 1.6;
   max-width: 720px;
   margin: 0 auto 30px;
@@ -1605,7 +1605,7 @@ input:focus-visible {
 
 .final-scores small {
   color: var(--muted);
-  font-size: 9px;
+  font-size: 14px;
   min-height: 28px;
 }
 
@@ -1634,18 +1634,18 @@ input:focus-visible {
 .final-message small {
   color: var(--positive);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 8px;
-  letter-spacing: 0.14em;
+  font-size: 14px;
+  letter-spacing: 0.08em;
 }
 
 .final-message strong {
   margin-top: 5px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .final-disclaimer {
   color: var(--muted-2);
-  font-size: 10px;
+  font-size: 14px;
   margin: 18px 0;
 }
 
@@ -1695,8 +1695,8 @@ input:focus-visible {
 .briefing-code {
   color: var(--yellow);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 8px;
-  letter-spacing: 0.16em;
+  font-size: 14px;
+  letter-spacing: 0.09em;
 }
 
 .briefing-modal h2,
@@ -1711,7 +1711,7 @@ input:focus-visible {
 .briefing-modal > p,
 .modal-intro {
   color: var(--muted);
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.6;
 }
 
@@ -1737,12 +1737,12 @@ input:focus-visible {
 .rule-grid span {
   color: var(--cyan);
   font-family: "SFMono-Regular", Consolas, monospace;
-  font-size: 9px;
+  font-size: 14px;
 }
 
 .briefing-metrics strong,
 .rule-grid strong {
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .briefing-rule {
@@ -1757,7 +1757,7 @@ input:focus-visible {
 
 .briefing-rule p {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 15px;
   line-height: 1.5;
   margin: 0;
 }
@@ -1792,12 +1792,12 @@ input:focus-visible {
 
 .evidence-note strong {
   color: var(--yellow);
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .evidence-note p {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 15px;
   line-height: 1.55;
   margin: 6px 0 0;
 }
@@ -1812,7 +1812,7 @@ input:focus-visible {
   color: var(--cyan);
   border: 1px solid rgba(112, 215, 245, 0.3);
   padding: 8px 10px;
-  font-size: 9px;
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -1874,7 +1874,7 @@ input:focus-visible {
   }
 
   .welcome-nav .text-button {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .welcome-grid {
@@ -2071,7 +2071,7 @@ input:focus-visible {
   }
 
   .hero-lede {
-    font-size: 16px;
+    font-size: 19px;
   }
 
   .radar {
@@ -2107,7 +2107,7 @@ input:focus-visible {
   }
 
   .impact-chips span {
-    font-size: 7px;
+    font-size: 14px;
   }
 
   .learning-panel,
@@ -2141,4 +2141,99 @@ input:focus-visible {
     animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* Readability upgrade — shared across EN and ES. Core type >= 14px. */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { font-size: 18px; line-height: 1.55; }
+:root { --muted: #c2d0df; --muted-2: #a8bacd; }
+button, input { line-height: 1.45; }
+.primary-button, .secondary-button {
+  min-height: 54px; height: auto; padding: 12px 20px;
+  line-height: 1.45; text-align: center; white-space: normal;
+}
+.topbar { height: auto; min-height: 78px; padding-top: 10px; padding-bottom: 10px; gap: 12px; flex-wrap: wrap; }
+.topbar-right { flex-wrap: wrap; }
+.brand-button strong, .wordmark strong { line-height: 1.3; }
+.brand-button small, .wordmark small { line-height: 1.35; }
+.simulation-chip, .operator-chip { line-height: 1.4; }
+.launch-panel { grid-template-columns: minmax(190px, .8fr) minmax(190px, 1.2fr) minmax(178px, .8fr); }
+.launch-panel input { min-height: 54px; height: auto; }
+.mode-switch button { height: auto; min-height: 46px; padding: 10px 12px; line-height: 1.35; }
+.launch-button { min-height: 54px; height: auto; }
+.orbit-header, .card-topline { flex-wrap: wrap; gap: 8px; line-height: 1.4; }
+.radar-core { width: 150px; height: 150px; }
+.radar-core span { line-height: 1.3; letter-spacing: .04em; }
+.orbit-node small { max-width: 140px; line-height: 1.35; letter-spacing: .03em; }
+.integrity-strip { flex-wrap: wrap; }
+.integrity-strip small, .status-ok { line-height: 1.4; }
+.welcome-objectives { line-height: 1.5; text-align: center; }
+.progress-module { width: min(100%, 390px); }
+.scoreboard { grid-template-columns: repeat(4, minmax(0, 1fr)) auto; }
+.score-label { flex-wrap: wrap; }
+.mission-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.mission-card { min-width: 0; }
+.mission-location, .target-line { line-height: 1.5; }
+.target-line span { display: block; margin-bottom: 4px; }
+.mission-card > button { min-height: 54px; padding: 12px 13px; line-height: 1.4; gap: 10px; }
+.mission-header { grid-template-columns: 88px minmax(0, 1fr) minmax(280px, 330px); }
+.mission-header > div, .debrief-hero > div { min-width: 0; }
+.mission-objective-box strong, .mission-objective-box span { line-height: 1.5; }
+.decision-layout { grid-template-columns: minmax(240px, 270px) minmax(0, 1fr); }
+.decision-main, .decision-rail { min-width: 0; }
+.decision-context { grid-template-columns: minmax(0, 1fr) minmax(235px, .88fr); gap: 28px; }
+.rail-step { align-items: flex-start; }
+.rail-step > span { flex: 0 0 34px; width: 34px; height: 34px; }
+.rail-step > div { min-width: 0; }
+.choice-card { grid-template-columns: 44px minmax(0, 1fr) 34px; min-height: 118px; }
+.choice-copy { min-width: 0; }
+.choice-copy strong, .choice-copy small { line-height: 1.5; }
+.impact-chips span, .delta-summary > span, .claim-rules span { line-height: 1.45; overflow-wrap: anywhere; }
+.delta-summary { grid-template-columns: minmax(180px, 1fr) repeat(4, minmax(105px, auto)); }
+.learning-panel li { grid-template-columns: 48px minmax(0, 1fr); }
+.final-scores small { min-height: 0; line-height: 1.45; }
+.final-core { width: 110px; height: 110px; }
+.briefing-modal, .evidence-modal { overflow-wrap: break-word; }
+.briefing-metrics > div, .rule-grid > div { min-width: 0; align-items: flex-start; }
+.briefing-metrics strong, .rule-grid strong { overflow-wrap: anywhere; line-height: 1.45; }
+.source-links a { line-height: 1.45; overflow-wrap: anywhere; }
+@media (max-width: 1360px) {
+  .welcome-grid { grid-template-columns: minmax(0, 1fr); min-height: auto; padding: 64px 0 40px; gap: 38px; }
+  .mission-orbit { justify-self: center; width: min(100%, 700px); }
+}
+@media (max-width: 1120px) {
+  .mission-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .mission-header { grid-template-columns: 82px minmax(0, 1fr); }
+  .decision-layout { grid-template-columns: minmax(0, 1fr); }
+  .decision-rail { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-right: 0; border-bottom: 1px solid var(--line); padding: 0 0 20px; gap: 8px 20px; }
+  .rail-label, .rail-rule { grid-column: 1 / -1; }
+  .decision-context { grid-template-columns: minmax(0, 1fr) minmax(240px, .7fr); }
+  .delta-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .delta-summary > div { grid-column: 1 / -1; }
+}
+@media (max-width: 820px) {
+  .launch-panel { grid-template-columns: minmax(0, 1fr); }
+  .mode-switch { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .topbar .operator-chip { max-width: none; white-space: normal; overflow: visible; text-overflow: clip; }
+  .mission-grid { grid-template-columns: minmax(0, 1fr); }
+  .mission-objective-box { grid-column: 1 / -1; }
+  .decision-context { grid-template-columns: minmax(0, 1fr); }
+  .scoreboard { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .choice-card { grid-template-columns: 40px minmax(0, 1fr) 28px; }
+  .debrief-hero { grid-template-columns: 72px minmax(0, 1fr); }
+  .briefing-metrics, .rule-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 540px) {
+  .hero-copy h1 { font-size: clamp(36px, 10vw, 46px); }
+  .map-heading h1, .mission-header h1, .debrief-hero h1 { font-size: clamp(31px, 8vw, 39px); }
+  .topbar { gap: 10px; }
+  .brand-button strong, .wordmark strong { font-size: 16px; }
+  .welcome-grid { padding-top: 36px; }
+  .welcome-nav { gap: 12px; flex-wrap: wrap; }
+  .decision-rail { grid-template-columns: minmax(0, 1fr); }
+  .rail-label, .rail-rule { grid-column: 1; }
+  .choice-card { padding: 14px 12px; gap: 10px; }
+  .impact-chips span { font-size: 14px; }
+  .final-core { width: 110px; height: 110px; }
+  .final-scores, .briefing-metrics, .rule-grid { grid-template-columns: minmax(0, 1fr); }
 }
