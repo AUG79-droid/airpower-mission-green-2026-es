@@ -155,7 +155,7 @@ const missions: Mission[] = [
       },
     ],
     learning: [
-      "Informa tanto de las emisiones absolutas como de una métrica de intensidad, por ejemplo kgCO₂e por tonelada-kilómetro.",
+      "Informa tanto de las emisiones absolutas como de una métrica de intensidad, por ejemplo kgCO₂e (kilogramos de dióxido de carbono equivalente) por tonelada-kilómetro.",
       "Define la línea base, el límite del envío, el método de asignación y el periodo de reporte.",
       "Una declaración sobre emisiones evitadas necesita un escenario contrafactual documentado, no solo una estimación de una ruta mejor.",
     ],
@@ -183,7 +183,7 @@ const missions: Mission[] = [
         choices: [
           {
             id: "meter-controls",
-            title: "Medición + controles HVAC",
+            title: "Medición + controles HVAC (calefacción, ventilación y aire acondicionado)",
             description: "Instala submedición en las zonas prioritarias, ajusta los horarios y verifica el confort y las restricciones operativas.",
             impact: { readiness: 5, environment: 11, evidence: 10, delivery: 5 },
             integrity: "strong",
@@ -345,12 +345,12 @@ const missions: Mission[] = [
   {
     id: "reach",
     number: "04",
-    short: "Señal REACH",
+    short: "Señal REACH (registro, evaluación, autorización y restricción de sustancias químicas)",
     title: "Encuentra la evidencia antes de la liberación",
     location: "Célula de soporte de ingeniería",
-    discipline: "REACH & VERUS",
-    objective: "Apoya el cumplimiento integral de REACH sin ofrecer garantías que no estén respaldadas.",
-    target: "Objetivo 2026: mantener el progreso respecto a los hitos REACH de TAS y reforzar las competencias.",
+    discipline: "REACH (registro, evaluación, autorización y restricción de sustancias químicas) & VERUS",
+    objective: "Apoya el cumplimiento integral de REACH (registro, evaluación, autorización y restricción de sustancias químicas) sin ofrecer garantías que no estén respaldadas.",
+    target: "Objetivo 2026: mantener el progreso respecto a los hitos REACH (registro, evaluación, autorización y restricción de sustancias químicas) de TAS y reforzar las competencias.",
     briefing:
       "Un proveedor propone un recubrimiento alternativo para una tarea de mantenimiento. Los datos de rendimiento son prometedores, pero el expediente reglamentario está incompleto.",
     symbol: "⌁",
@@ -359,7 +359,7 @@ const missions: Mission[] = [
       {
         title: "Gestiona la sustitución propuesta",
         prompt: "¿Qué autorizas?",
-        detail: "Esta simulación no sustituye el proceso de cumplimiento aplicable de Airbus, ECHA o del programa.",
+        detail: "Esta simulación no sustituye el proceso de cumplimiento aplicable de Airbus, ECHA (Agencia Europea de Sustancias y Mezclas Químicas) o del programa.",
         choices: [
           {
             id: "controlled-review",
@@ -435,21 +435,21 @@ const missions: Mission[] = [
   {
     id: "saf",
     number: "05",
-    short: "Expediente de vuelo SAF",
+    short: "Expediente de vuelo SAF (combustible sostenible de aviación)",
     title: "Contabiliza el combustible, no el titular",
     location: "Operaciones de formación",
-    discipline: "Investigación sobre SAF",
-    objective: "Evalúa el posible uso de SAF en actividades de formación utilizando evidencia del ciclo de vida.",
-    target: "Objetivo 2026: investigar el posible uso de SAF en vuelos de formación de filiales.",
+    discipline: "Investigación sobre SAF (combustible sostenible de aviación)",
+    objective: "Evalúa el posible uso de SAF (combustible sostenible de aviación) en actividades de formación utilizando evidencia del ciclo de vida.",
+    target: "Objetivo 2026: investigar el posible uso de SAF (combustible sostenible de aviación) en vuelos de formación de filiales.",
     briefing:
-      "Un vuelo de formación podría utilizar una mezcla SAF. Compras puede asegurar un lote, pero deben registrarse la vía de producción, la cadena de custodia y el valor de ciclo de vida.",
+      "Un vuelo de formación podría utilizar una mezcla SAF (combustible sostenible de aviación). Compras puede asegurar un lote, pero deben registrarse la vía de producción, la cadena de custodia y el valor de ciclo de vida.",
     symbol: "△",
     accent: "violet",
     decisions: [
       {
         title: "Construye el expediente de evidencia",
         prompt: "¿Qué información se necesita antes de realizar una declaración sobre emisiones?",
-        detail: "El comportamiento de ciclo de vida del SAF varía según la vía de producción y no debe confundirse con cero emisiones en el escape.",
+        detail: "El comportamiento de ciclo de vida del SAF (combustible sostenible de aviación) varía según la vía de producción y no debe confundirse con cero emisiones en el escape.",
         choices: [
           {
             id: "verified-batch",
@@ -462,8 +462,8 @@ const missions: Mission[] = [
           },
           {
             id: "generic-saf",
-            title: "Factura genérica de SAF",
-            description: "Registra que se compró SAF, pero no la vía de producción del lote, la mezcla ni el valor de ciclo de vida.",
+            title: "Factura genérica de SAF (combustible sostenible de aviación)",
+            description: "Registra que se compró SAF (combustible sostenible de aviación), pero no la vía de producción del lote, la mezcla ni el valor de ciclo de vida.",
             impact: { readiness: 6, environment: 3, evidence: -8, delivery: 4 },
             integrity: "mixed",
             feedback:
@@ -497,15 +497,15 @@ const missions: Mission[] = [
           {
             id: "zero-flight",
             title: "Decláralo vuelo de cero emisiones",
-            description: "Utiliza la participación de SAF como prueba de que el vuelo no generó emisiones.",
+            description: "Utiliza la participación de SAF (combustible sostenible de aviación) como prueba de que el vuelo no generó emisiones.",
             impact: { readiness: -3, environment: -3, evidence: -18, delivery: 1 },
             integrity: "weak",
             feedback:
-              "Esto no está respaldado. Las alegaciones sobre SAF se refieren al comportamiento de ciclo de vida en condiciones definidas, no a cero emisiones en la aeronave.",
+              "Esto no está respaldado. Las alegaciones sobre SAF (combustible sostenible de aviación) se refieren al comportamiento de ciclo de vida en condiciones definidas, no a cero emisiones en la aeronave.",
           },
           {
             id: "saf-only",
-            title: "Di únicamente «utilizamos SAF»",
+            title: "Di únicamente «utilizamos SAF (combustible sostenible de aviación)»",
             description: "Omite la mezcla, la cantidad, la vía de producción, el periodo de reporte y la naturaleza del beneficio alegado.",
             impact: { readiness: 2, environment: 2, evidence: -7, delivery: 4 },
             integrity: "mixed",
@@ -516,11 +516,11 @@ const missions: Mission[] = [
       },
     ],
     learning: [
-      "Las declaraciones sobre emisiones relacionadas con SAF dependen de los valores de ciclo de vida, la vía de producción, la cantidad y la cadena de custodia.",
+      "Las declaraciones sobre emisiones relacionadas con SAF (combustible sostenible de aviación) dependen de los valores de ciclo de vida, la vía de producción, la cantidad y la cadena de custodia.",
       "Una reducción de ciclo de vida no equivale a eliminar las emisiones de combustión durante un vuelo.",
       "Indica si un valor es medido, certificado, estimado o supuesto.",
     ],
-    claimCheck: "Describe el lote de combustible verificado y el límite de ciclo de vida; nunca declares que un vuelo con SAF es de «cero emisiones».",
+    claimCheck: "Describe el lote de combustible verificado y el límite de ciclo de vida; nunca declares que un vuelo con SAF (combustible sostenible de aviación) es de «cero emisiones».",
   },
   {
     id: "greenlight",
@@ -842,8 +842,8 @@ export default function Home() {
             <span>LOGÍSTICA DE CO₂</span><i />
             <span>ENERGÍA</span><i />
             <span>MATERIALES</span><i />
-            <span>REACH</span><i />
-            <span>SAF</span><i />
+            <span>REACH (registro, evaluación, autorización y restricción de sustancias químicas)</span><i />
+            <span>SAF (combustible sostenible de aviación)</span><i />
             <span>DATOS</span>
           </div>
         </section>
@@ -1102,13 +1102,13 @@ export default function Home() {
             </div>
             <div className="evidence-note">
               <strong>Dentro de esta simulación</strong>
-              <p>Todas las cifras operativas son ilustrativas. No representan el desempeño de Airbus. Las decisiones REACH deben seguir el proceso empresarial y reglamentario aplicable. Las comparaciones sobre SAF requieren una metodología de ciclo de vida definida y una cadena de evidencia.</p>
+              <p>Todas las cifras operativas son ilustrativas. No representan el desempeño de Airbus. Las decisiones REACH (registro, evaluación, autorización y restricción de sustancias químicas) deben seguir el proceso empresarial y reglamentario aplicable. Las comparaciones sobre SAF (combustible sostenible de aviación) requieren una metodología de ciclo de vida definida y una cadena de evidencia.</p>
             </div>
             <div className="source-links">
-              <a href="https://www.gov.uk/government/publications/green-claims-code-making-environmental-claims/environmental-claims-on-goods-and-services" target="_blank" rel="noreferrer">Código de alegaciones ambientales de la CMA ↗</a>
-              <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L0825" target="_blank" rel="noreferrer">Directiva UE 2024/825 ↗</a>
-              <a href="https://chem.echa.europa.eu/obligation-lists/candidateList" target="_blank" rel="noreferrer">Lista de sustancias candidatas de ECHA ↗</a>
-              <a href="https://www.icao.int/CORSIA/fuels-lifecycle" target="_blank" rel="noreferrer">Ciclo de vida del SAF según OACI ↗</a>
+              <a href="https://www.gov.uk/government/publications/green-claims-code-making-environmental-claims/environmental-claims-on-goods-and-services" target="_blank" rel="noreferrer">Código de alegaciones ambientales de la CMA (Autoridad de Competencia y Mercados del Reino Unido) ↗</a>
+              <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L0825" target="_blank" rel="noreferrer">Directiva UE (Unión Europea) 2024/825 ↗</a>
+              <a href="https://chem.echa.europa.eu/obligation-lists/candidateList" target="_blank" rel="noreferrer">Lista de sustancias candidatas de ECHA (Agencia Europea de Sustancias y Mezclas Químicas) ↗</a>
+              <a href="https://www.icao.int/CORSIA/fuels-lifecycle" target="_blank" rel="noreferrer">Ciclo de vida del SAF (combustible sostenible de aviación) según OACI (Organización de Aviación Civil Internacional) ↗</a>
             </div>
           </div>
         </div>
