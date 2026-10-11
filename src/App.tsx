@@ -823,7 +823,7 @@ export default function Home() {
                 {missions.map((mission, index) => (
                   <div key={mission.id} className={`orbit-node node-${index + 1}`}>
                     <span>{mission.symbol}</span>
-                    <small>{mission.discipline}</small>
+                    <small title={mission.discipline} aria-label={mission.discipline}>{mission.id === "reach" ? "REACH / VERUS" : mission.id === "saf" ? "SAF" : mission.discipline}</small>
                   </div>
                 ))}
               </div>
