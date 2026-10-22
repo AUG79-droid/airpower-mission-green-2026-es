@@ -1,32 +1,31 @@
-# Reto Airpower de Sostenibilidad 2026
+# Reto Airpower de Sostenibilidad
 
-Juego interactivo en castellano para aprender sobre los objetivos de sostenibilidad de 2026 en el contexto de Airpower Services.
+Experiencia formativa interactiva en castellano para practicar decisiones de sostenibilidad en operaciones, ingeniería, logística, energía y cumplimiento aeronáutico.
 
-## Contenido
+## Diseño pedagógico
 
-- Seis misiones y doce decisiones operativas.
-- Consecuencias inmediatas y métricas simuladas sobre las compensaciones.
-- Logística, energía, embalaje, REACH, SAF y evaluación de proyectos.
-- Un protocolo de integridad de las alegaciones diseñado para evitar el blanqueo ecológico.
-- El juego no necesita imágenes, fuentes ni servicios externos durante su ejecución.
+- **6 escenarios y 30 decisiones aplicadas**, cinco por misión, cada una con tres alternativas y retroalimentación específica.
+- **4 apartados teóricos antes** y **3 apartados amplios después** de cada misión (**42 secciones teóricas**).
+- Explicación del criterio tras cada decisión y, cuando proceda, por qué una alternativa más sólida es preferible.
+- Métricas simuladas de disponibilidad, recursos, evidencia de cumplimiento y entrega; sin certificaciones.
+- Temas: logística urgente y repuestos; energía y verificación; embalajes y registros digitales; sustitución química y REACH; contabilidad del SAF; revisión de proyectos y decisiones con datos incompletos.
 
-## Aviso importante
+## Recorrido del jugador
 
-Todas las cifras operativas y puntuaciones son contenidos formativos ilustrativos. No representan datos de desempeño de Airbus, una certificación ambiental, el estado de cumplimiento ni una aprobación operativa.
+**Estudiar el contexto → resolver 5 decisiones → leer la página de teoría completa → revisar las conclusiones.** La teoría se puede consultar nuevamente durante el juego.
 
-## Ejecución local
+## Limitaciones de uso
+
+Todos los escenarios, cifras, impactos y puntuaciones son ejemplos ficticios para aprender. No son datos operativos de Airbus, instrucciones de mantenimiento autorizadas, reducciones ambientales verificadas, aprobaciones de cumplimiento ni certificaciones profesionales. Deben respetarse la seguridad, trazabilidad, aeronavegabilidad, configuración y procedimientos corporativos aplicables.
+
+## Desarrollo y publicación
 
 ```bash
 npm install
 npm run dev
+npm run build
 ```
 
-## Publicación
+Los workflows de GitHub Actions compilan y publican el juego en GitHub Pages.
 
-El workflow de GitHub Actions incluido compila y publica la aplicación en GitHub Pages después de cada cambio en `main`.
-
-Dirección prevista:
-
-`https://aug79-droid.github.io/airpower-mission-green-2026-es/`
-
-Si no se selecciona automáticamente, configura **Settings → Pages → Source** como **GitHub Actions**.
+Acceso: https://aug79-droid.github.io/airpower-mission-green-2026-es/
